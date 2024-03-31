@@ -1,5 +1,5 @@
-# ASISTENSI-LAB-PM-02-2024
-Repositori untuk pengumpulan Tugas Praktikum Asistensi Group 02 Pemrograman Mobile 2024 Sistem Informasi Universitas Hasanuddin
+# ASISTENSI-LAB-PM-04-2024
+Repositori untuk pengumpulan Tugas Praktikum Asistensi Group 04 Pemrograman Mobile 2024 Sistem Informasi Universitas Hasanuddin
 
 ## Aturan Pengumpulan
 **Note:**  
