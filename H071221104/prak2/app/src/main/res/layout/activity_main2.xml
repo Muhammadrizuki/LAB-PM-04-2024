@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edbutton"
+        android:text="Save"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#0227DC"
+        android:textColor="@color/white"/>
+
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:hint="title"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_margin="10dp"
+        android:textColorHint="#4A4A4A"
+        android:textColor="@color/black"/>
+
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/bio"
+        android:background="@color/white"
+        android:hint="bio"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:textColorHint="#4A4A4A"
+        android:textColor="@color/black"/>
+
+
+  </LinearLayout>
+
+</LinearLayout>
